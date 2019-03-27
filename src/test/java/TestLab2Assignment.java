@@ -1,6 +1,11 @@
+import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class TestLab2Assignment {
 
-     public void AddValidStudentTest(){
+    @Test
+    public void addValidStudentTest() {
     }
+
 }
