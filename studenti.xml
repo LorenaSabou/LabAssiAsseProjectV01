@@ -12,6 +12,10 @@
         <Nume>Ion</Nume>
         <Grupa>227</Grupa>
     </student>
+    <student ID="5">
+        <Nume>lorena</Nume>
+        <Grupa>900</Grupa>
+    </student>
     <student ID="6">
         <Nume>lorena</Nume>
         <Grupa>936</Grupa>
