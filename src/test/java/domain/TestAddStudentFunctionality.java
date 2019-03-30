@@ -18,7 +18,7 @@ public class TestAddStudentFunctionality {
         studentRepository = new StudentRepository(new StudentValidator()); }
 
     @Test
-    public void addValidStudent() {
+    public void shouldAddValidStudent() {
         Student student = new Student("10","Lorena", 936);
         studentRepository.save(student);
         assert studentRepository.findOne("10").equals(student);
