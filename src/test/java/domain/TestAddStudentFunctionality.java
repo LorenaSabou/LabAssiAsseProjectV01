@@ -25,7 +25,7 @@ public class TestAddStudentFunctionality {
     }
 
     @Test
-    public void shouldNotAddStudentIfAlreadyPresent() {
+    public void shouldNotSaveDuplicatedData() {
         Student student1 = new Student("10","Lorena", 936);
         studentRepository.save(student1);
         Student student2 = new Student("10","Andreea", 936);
@@ -43,7 +43,7 @@ public class TestAddStudentFunctionality {
     }
 
     @Test
-    public void shouldAddStudentWithValidGroupNr(){
+    public void shouldSaveValidGroup(){
         Student studentWithValidGroup = new Student("11", "Lorena", 936);
         studentRepository.save(studentWithValidGroup);
 
@@ -51,7 +51,7 @@ public class TestAddStudentFunctionality {
     }
 
     @Test
-    public void shouldNotAddStudentWithInvalidGroupNr() {
+    public void shouldNotSaveInvalidGroup() {
         Student invalidStudent = new Student("11", "Lorena", 5);
         Student st1 = studentRepository.save(invalidStudent);
         Student invalidStudent2 = new Student("12", "Andreea", 2000);
