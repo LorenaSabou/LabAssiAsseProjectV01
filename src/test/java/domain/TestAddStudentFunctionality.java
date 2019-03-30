@@ -1,3 +1,5 @@
+package domain;
+
 import domain.Student;
 import org.junit.Test;
 import org.junit.Before;
@@ -8,7 +10,7 @@ import java.util.Iterator;
 
 
 
-public class TestLab2Assignment {
+public class TestAddStudentFunctionality {
     StudentRepository studentRepository;
 
     @Before
