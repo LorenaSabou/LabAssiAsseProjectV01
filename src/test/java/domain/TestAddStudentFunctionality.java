@@ -53,52 +53,30 @@ public class TestAddStudentFunctionality {
     @Test
     public void shouldNotSaveInvalidGroup() {
         Student invalidStudent = new Student("11", "Lorena", 5);
-        Student st1 = studentRepository.save(invalidStudent);
+        Student student1 = studentRepository.save(invalidStudent);
         Student invalidStudent2 = new Student("12", "Andreea", 2000);
-        Student st2 = studentRepository.save(invalidStudent2);
+        Student student2 = studentRepository.save(invalidStudent2);
 
-        assert st1 == null;
-        assert st2 == null;
+        assert student1 == null;
+        assert student2 == null;
     }
 
     @Test
-    public void shouldNotAddStudentWithNullID() {
+    public void shouldNotAddStudentWithoutID() {
         Student studentWithNullID = new Student(null, "Lorena", 936);
-        Student st1 = studentRepository.save(studentWithNullID);
+        Student student = studentRepository.save(studentWithNullID);
 
-        assert st1 == null;
+        assert student == null;
     }
 
-    @Test
-    public void shouldNotAddStudentWithEmptyStringID() {
-        Student studentWithEmptyID = new Student("", "Lorena", 936);
-        Student st1 = studentRepository.save(studentWithEmptyID);
-
-        assert st1 == null;
-    }
 
     @Test
-    public void shouldNotAddStudentWithNullName() {
+    public void shouldNotAddStudentWithoutName() {
         Student studentWithNullName = new Student("15", null, 936);
-        Student st1 = studentRepository.save(studentWithNullName);
+        Student student = studentRepository.save(studentWithNullName);
 
-        assert st1 == null;
+        assert student == null;
     }
 
-    @Test
-    public void shouldNotAddStudentWithEmptyStringName() {
-        Student studentWithEmptyName = new Student("15", "", 936);
-        Student st1 = studentRepository.save(studentWithEmptyName);
-
-        assert st1 == null;
-    }
-
-    @Test
-    public void shouldAddStudentWithValidName() {
-        Student studentWithValidName = new Student("15", "LorenaSabou", 936);
-        studentRepository.save(studentWithValidName);
-
-        assert studentRepository.findOne("15").equals(studentWithValidName);
-    }
 }
 
