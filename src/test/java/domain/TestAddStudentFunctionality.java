@@ -25,6 +25,14 @@ public class TestAddStudentFunctionality {
     }
 
     @Test
+    public void shouldNotAddStudentWithoutID() {
+        Student studentWithNullID = new Student(null, "Lorena", 936);
+        Student student = studentRepository.save(studentWithNullID);
+
+        assert student == null;
+    }
+
+    @Test
     public void shouldNotSaveDuplicatedData() {
         Student student1 = new Student("10","Lorena", 936);
         studentRepository.save(student1);
@@ -61,13 +69,7 @@ public class TestAddStudentFunctionality {
         assert student2 == null;
     }
 
-    @Test
-    public void shouldNotAddStudentWithoutID() {
-        Student studentWithNullID = new Student(null, "Lorena", 936);
-        Student student = studentRepository.save(studentWithNullID);
 
-        assert student == null;
-    }
 
 
     @Test
