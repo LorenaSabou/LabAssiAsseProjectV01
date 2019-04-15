@@ -40,7 +40,7 @@ public class TestAddAssignmentFunctionality {
             fail();
     }
 
-        @Test
+    @Test
     public void shouldNotAddInvalidAssignment() {
         Tema temaToAdd = new Tema("6","lorena",10,11);
        // assert service.saveTema("6","lorena",10,11) == 1 ;
@@ -53,6 +53,34 @@ public class TestAddAssignmentFunctionality {
             } else
                 fail();
     }
+
+    @Test
+    public void shouldNotAddIfAlreadyPresent(){
+        Tema temaToAdd = new Tema("5","lorena",4,1);
+        Tema result = temaRepository.save(temaToAdd);
+
+        Tema temaToAdd2 = new Tema("5","lorena",4,1);
+        Tema result2 = temaRepository.save(temaToAdd2);
+
+        if (result2 != null) {
+            assertTrue(true);
+        } else
+            fail();
+
+    }
+
+    @Test
+    public void shouldNotAddInvalidDescription() {
+        Tema temaToAdd = new Tema("6","",10,11);
+        Tema result = temaRepository.save(temaToAdd);
+
+        if (result == null) {
+            assertTrue(true);
+        } else
+            fail();
+    }
+
+
 }
 
 
