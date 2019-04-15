@@ -1,6 +1,7 @@
 package domain;
 
 import domain.Student;
+import domain.Tema;
 import org.junit.Test;
 import org.junit.Before;
 import repository.*;

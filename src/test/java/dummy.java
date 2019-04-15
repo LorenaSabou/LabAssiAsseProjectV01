@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 
 
-public class TestLab2Assignment {
+public class dummy {
     StudentRepository studentRepository;
 
     @Before
