@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/IntegrationTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLab2Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/TestAddAssignmentFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/TestAddAssignmentFunctionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/TestAddAssignmentFunctionality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/IntegrationTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/IntegrationTesting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,13 +54,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="1773" />
+          <entry key="java" value="1809" />
           <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1773" />
+          <entry key="JAVA" value="1809" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="22" />
         </counts>
@@ -117,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/domain/IntegrationTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="408">
+              <caret line="86" column="72" lean-forward="true" selection-start-line="86" selection-start-column="72" selection-end-line="86" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -327,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555335854765" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555336169273" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -488,9 +485,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntegrationTesting - 2019.04.15 at 16h 35m 58s.xml">
-      <configuration name="IntegrationTesting" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAddAssignmentFunctionality - 2019.04.15 at 16h 37m 36s.xml">
       <configuration name="TestAddAssignmentFunctionality" configurationId="JUnit" />
     </history-entry>
@@ -517,6 +511,9 @@
     </history-entry>
     <history-entry file="IntegrationTesting_addAll - 2019.04.15 at 16h 44m 10s.xml">
       <configuration name="IntegrationTesting.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTesting - 2019.04.15 at 16h 44m 20s.xml">
+      <configuration name="IntegrationTesting" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -546,13 +543,13 @@
       <window_info id="simpleUML" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34324324" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34324324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2734694" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2918919" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2918919" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.44489795" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -826,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/domain/IntegrationTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="408">
+          <caret line="86" column="72" lean-forward="true" selection-start-line="86" selection-start-column="72" selection-end-line="86" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
